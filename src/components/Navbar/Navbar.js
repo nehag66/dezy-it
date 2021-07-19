@@ -17,8 +17,8 @@ const NavigationBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="primary" light expand="xl">
+    <div className="nav-bar">
+      <Navbar light expand="md" className="navibar">
         <NavbarBrand href="/">
           <img src={dtlogo} alt="dtlogo" className="dt-logo" />
         </NavbarBrand>
@@ -26,19 +26,19 @@ const NavigationBar = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink href="#home">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/ourproduct/">Our Product</NavLink>
+              <NavLink href="#ourproduct">Our Product</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/whyus">Why Us?</NavLink>
+              <NavLink href="#whyus">Why Us?</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Blogs</NavLink>
+              <NavLink href="#blogs">Blogs</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="#contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

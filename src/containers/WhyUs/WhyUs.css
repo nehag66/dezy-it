@@ -1,0 +1,38 @@
+.heading-whyus {
+  padding: 25px;
+}
+
+#whyus {
+  height: 600px;
+  background-color: white;
+  color: rgb(37, 42, 107);
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  padding: 100px 180px;
+  flex-grow: 5;
+}
+.text-whyus {
+  margin: 30px;
+  color: rgb(37, 42, 107);
+  text-align: left;
+  /* padding: 50px; */
+}
+hr.hrule {
+  border: 2px solid rgb(14, 18, 70);
+}
+
+#whyus2 {
+  height: 600px;
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+}
+#whyus3 {
+  height: 600px;
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+}

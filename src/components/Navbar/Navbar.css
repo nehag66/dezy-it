@@ -1,5 +1,16 @@
 .dt-logo {
-  margin: 10px 250px;
+  /* margin: 10px 250px; */
   height: 40px;
   position: relative;
+}
+
+.navibar {
+  background-color: rgb(37, 42, 107);
+  padding: 80px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

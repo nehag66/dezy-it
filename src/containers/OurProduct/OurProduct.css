@@ -1,0 +1,12 @@
+#ourproduct {
+  height: 1100px;
+  background-color: rgb(37, 42, 107);
+  display: inline-block;
+  width: 100%;
+}
+
+.text-ourproduct {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}

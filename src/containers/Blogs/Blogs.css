@@ -1,6 +1,19 @@
 #blogs {
   height: 600px;
   background-color: rgba(96, 96, 199, 0.767);
+  color: black;
+  text-align: left;
   display: inline-block;
   width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  /* justify-content: space-around; */
+  padding: 70px 180px;
+}
+
+.heading-blog {
+  padding: 20px;
+  color: white;
+  background-color: rgba(96, 96, 199, 0.767);
 }

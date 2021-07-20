@@ -1,6 +1,8 @@
 import React from "react";
 import "./WhyUs.css";
 import img1 from "../../assets/dezy-image1.jpg";
+import img4 from "../../assets/dezy-image4.png";
+import img5 from "../../assets/dezy-image5.png";
 
 const WhyUs = () => {
   return (
@@ -29,8 +31,43 @@ const WhyUs = () => {
         </div>
       </div>
 
-      <div id="whyus2">This is the why us-2 section</div>
-      <div id="whyus3">This is the why us-3 section</div>
+      <div id="whyus">
+        <div>
+          <img src={img4} alt="img4" height="400px" />
+        </div>
+        <div className="text-whyus">
+          <h1>Creativity</h1>
+          <hr className="hrule" />
+          <h6>
+            Design Sprints are a great way to quickly innovate. A structured
+            agile process to streamline your innovation and come up with
+            multiple creative ideas using the Crazy-8 framework. It boosts your
+            morale and provokes you to think out of the box. Now, with a ton of
+            ideas, the Impact vs Feasibility analysis is a simple yet effective
+            criteria, to shortlist the winning ides and most importantly
+            validate them with real users.
+          </h6>
+        </div>
+      </div>
+      <div id="whyus">
+        <div className="text-whyus">
+          <h1>Empathy</h1>
+          <hr className="hrule" />
+          <h6>
+            The first rule of design thinking is to keep your users in the
+            centre and under a spotlight. All great ideas arrive from
+            devastating problems. The design sprint focuses on getting each and
+            every team member to be able to empathise and understand the user,
+            map their journeys and identify their pain points. You have to truly
+            step into the shoes of your users to understand their psychology and
+            experience of what they feel and think; while using your product or
+            service.
+          </h6>
+        </div>
+        <div>
+          <img src={img5} alt="img5" height="300px" />
+        </div>
+      </div>
     </div>
   );
 };

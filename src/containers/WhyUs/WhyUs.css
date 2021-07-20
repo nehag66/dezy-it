@@ -3,7 +3,7 @@
 }
 
 #whyus {
-  height: 600px;
+  height: 500px;
   background-color: white;
   color: rgb(37, 42, 107);
   display: inline-block;
@@ -18,21 +18,7 @@
   margin: 30px;
   color: rgb(37, 42, 107);
   text-align: left;
-  /* padding: 50px; */
 }
 hr.hrule {
   border: 2px solid rgb(14, 18, 70);
-}
-
-#whyus2 {
-  height: 600px;
-  background-color: white;
-  display: inline-block;
-  width: 100%;
-}
-#whyus3 {
-  height: 600px;
-  background-color: white;
-  display: inline-block;
-  width: 100%;
 }

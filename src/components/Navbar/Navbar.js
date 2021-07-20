@@ -18,17 +18,15 @@ const NavigationBar = (props) => {
 
   return (
     <div className="nav-bar">
-      <Navbar light expand="md" className="navibar">
+      <Navbar light expand="md">
         <NavbarBrand href="/">
           <img src={dtlogo} alt="dtlogo" className="dt-logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav navbar>
             <NavItem>
-              <NavLink href="#home" className="nav-item">
-                Home
-              </NavLink>
+              <NavLink href="#home">Home</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#ourproduct">Our Product</NavLink>

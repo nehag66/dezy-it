@@ -1,20 +1,18 @@
 .dt-logo {
-  /* margin: 10px 250px; */
   height: 40px;
   position: relative;
-}
-
-.navibar {
-  background-color: rgb(37, 42, 107);
-  padding: 80px;
 }
 
 .nav-bar {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.nav-item {
+  padding: 10px 200px;
+  z-index: 2;
+  background-color: rgb(37, 42, 107);
   color: white;
 }
+
+/* .navi-item {
+  color: white;
+} */

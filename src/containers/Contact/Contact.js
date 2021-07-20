@@ -37,17 +37,17 @@ const Contact = () => {
         <div className="contact2">
           <h1>About</h1>
           <div className="buttons">
-            <Button outline color="info" className="btn">
-              About
+            <Button outline color="info" className="btn" href="#home">
+              Home
             </Button>
             <br />
             <br />
-            <Button outline color="info" className="btn">
+            <Button outline color="info" className="btn" href="#ourproduct">
               Our Product
             </Button>
             <br />
             <br />
-            <Button outline color="info" className="btn">
+            <Button outline color="info" className="btn" href="#whyus">
               Why Us?
             </Button>
             <br />
@@ -68,13 +68,13 @@ const Contact = () => {
         <div>
           <h1>Contact</h1>
           <p>Email - support@dezyit.com</p>
-          <a href="/" className="youtube social">
+          <a href="#home" className="youtube social">
             <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
-          <a href="/" className="facebook social">
+          <a href="#home" className="facebook social">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="/" className="instagram social">
+          <a href="#home" className="instagram social">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
           <br />

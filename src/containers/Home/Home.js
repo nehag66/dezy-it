@@ -26,13 +26,13 @@ const Home = () => {
         </div>
         <div>
           {" "}
-          <img src={Mobile} alt="mobile" height="500px" />
+          <img src={Mobile} alt="mobile" height="500px" className="mobile" />
         </div>
       </div>
 
       <div id="home2">
         <div>
-          <img src={img3} alt="img3" height="400px" />
+          <img src={img3} alt="img3" height="400px" className="mobile" />
         </div>
         <div className="text-home2">
           <h1>What is a Design Sprint?</h1>

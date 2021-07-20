@@ -27,13 +27,13 @@ const WhyUs = () => {
           </h6>
         </div>
         <div>
-          <img src={img1} alt="img1" height="400px" />
+          <img src={img1} alt="img1" height="400px" className="mobile" />
         </div>
       </div>
 
       <div id="whyus">
         <div>
-          <img src={img4} alt="img4" height="400px" />
+          <img src={img4} alt="img4" height="400px" className="mobile" />
         </div>
         <div className="text-whyus">
           <h1>Creativity</h1>
@@ -65,7 +65,7 @@ const WhyUs = () => {
           </h6>
         </div>
         <div>
-          <img src={img5} alt="img5" height="300px" />
+          <img src={img5} alt="img5" height="300px" className="mobile" />
         </div>
       </div>
     </div>

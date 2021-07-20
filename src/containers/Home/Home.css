@@ -1,12 +1,12 @@
 #home {
   height: 600px;
   background-color: rgba(96, 96, 199, 0.767);
+  -webkit-print-color-adjust: exact;
   display: inline-block;
   width: 100%;
   display: flex;
   align-items: stretch;
   padding: 100px 150px;
-  flex-grow: 5;
 }
 
 .text-home {
@@ -31,4 +31,14 @@
 .text-home2 {
   text-align: left;
   margin: 70px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .mobile {
+    display: inline;
+  }
 }

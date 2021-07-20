@@ -16,8 +16,13 @@ const Home = () => {
           <br />
           <h5>Download Now!</h5>
           <h6>And enjoy our Beta Version for free!</h6>
-          <img src={gplay} alt="gplay" height="60px" />
-          <img src={appstore} alt="appstore" height="70px" />
+          <img src={gplay} alt="gplay" height="60px" className="image-tag" />
+          <img
+            src={appstore}
+            alt="appstore"
+            height="70px"
+            className="image-tag"
+          />
         </div>
         <div>
           {" "}

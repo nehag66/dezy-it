@@ -1,6 +1,91 @@
 #contact {
   height: 600px;
   background-color: rgb(37, 42, 107);
+  color: white;
   display: inline-block;
   width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  padding: 100px 180px;
+  flex-grow: 5;
+}
+
+.contact1 {
+  padding: 2px 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+}
+input[type="email"] {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+}
+input[type="textarea"] {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  resize: none;
+}
+
+.buttons {
+  width: 450px;
+}
+
+.btn {
+  width: 200px;
+}
+
+.contact3 {
+  text-align: left;
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  /* color: #eb3223; */
+  color: white;
+}
+
+a.facebook {
+  /* color: #4968ad; */
+  color: white;
+}
+
+a.twitter {
+  /* color: #49a1eb; */
+  color: white;
+}
+
+a.instagram {
+  /* color: black; */
+  color: white;
 }

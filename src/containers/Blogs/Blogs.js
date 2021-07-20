@@ -26,7 +26,6 @@ const Blogs = () => {
             <br />
             <CardTitle tag="h6">Jun 18 . 3 min</CardTitle>
             <br />
-
             <CardSubtitle tag="h6" className="mb-2 text-muted">
               How to go from idea to product using Design Sprints
             </CardSubtitle>
@@ -36,13 +35,13 @@ const Blogs = () => {
             </CardText>
           </CardBody>
         </Card>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Card>
           <CardImg top width="100%" src={blogImg2} alt="Card image cap" />
           <CardBody>
             <br />
             <CardTitle tag="h6">Jun 13 . 4 min</CardTitle>
             <br />
-
             <CardSubtitle tag="h6" className="mb-2 text-muted">
               Productivity hacks for Work From Home
             </CardSubtitle>
@@ -52,13 +51,13 @@ const Blogs = () => {
             </CardText>
           </CardBody>
         </Card>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Card>
           <CardImg top width="100%" src={blogImg3} alt="Card image cap" />
           <CardBody>
             <br />
             <CardTitle tag="h6">May 29 . 2 min</CardTitle>
             <br />
-
             <CardSubtitle tag="h6" className="mb-2 text-muted">
               Work From Home: Design Edition
             </CardSubtitle>
